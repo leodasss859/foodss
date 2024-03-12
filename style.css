@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow:5px 5px 20px goldenrod ;
+}
+
+.navbar .navbar-brand{
+    font-size:25px;
+}
+
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent button{
+    background-color: goldenrod;
+    border-radius: 15px;
+    margin:10px;
+}
+.banner-img{
+    position: relative;
+    margin-top:-175px;
+    overflow: hidden;
+}
+.contentimg{
+    overlay: auto;
+    position:relative;
+    margin-top:-465px;
+    margin-left:850px;
+}
+#vivin{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 50px;
+}
+#abc{
+    margin-top: 100px;
+
+
+}
+#p{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 20px;
+}
+#h{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 20px;
+}
+#ban2{
+    margin-top:100px;
+}
+
+#pa{
+    position: absolute;
+    margin-top: -150px;
+    color: white;
+    margin-left: 50px;
+}
+#he{
+    position: absolute;
+    margin-top: -100px;
+    color: white;
+    margin-left: 20px;
+}
+#ban3{
+    margin-top:40px;
+}
+
+#pe{
+    position: absolute;
+    margin-top: -150px;
+    color: white;
+    margin-left: 50px;
+}
+#hj{
+    position: absolute;
+    margin-top: -100px;
+    color: white;
+    margin-left: 20px;
+}
+.reservation {
+    position: relative;
+    isolation: isolate;
+    background-color: bisque;
+  }
+  
+  
+  #contact button{
+    background-color: red;  }
+  
+  .reservation__container h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--header-font-2);
+    color: var(--text-dark);
+    text-align: center;
+  }
+  
+  .reservation__container form {
+    max-width: 400px;
+    margin-inline: auto;
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .reservation__container input {
+    padding: 0.75rem 1rem;
+    outline: none
+    ;
+    border: 1px solid var(--text-dark);
+    font-size: 1rem;
+    color: var(--text-dark);
+  }
+  
+  .reservation__container input::placeholder {
+    color: var(--text-dark);
+  }
+  
+  .reservation img {
+    display: none;
+    margin-top: -80px;
+  }
+  
+  
+footer{
+    background-image: url('footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
